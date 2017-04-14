@@ -1,0 +1,26 @@
+{
+  "name": "flexrunner",
+  "version": "1.0.0",
+  "description": "FlexRunner application",
+  "main": "index.js",
+  "dependencies": {
+    "twilio": "^2.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grawk/flexrunner.git"
+  },
+  "keywords": [
+    "flexrunner"
+  ],
+  "author": "grawk <mattedelman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grawk/flexrunner/issues"
+  },
+  "homepage": "https://github.com/grawk/flexrunner#readme"
+}
