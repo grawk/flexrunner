@@ -6,8 +6,8 @@ var authToken = process.env.TWILIO_TOKEN;
 var client = require('twilio')(accountSid, authToken);
 
 client.messages.create({
-  to: "+14155161838",
-  from: "+14156589688",
+  to: process.env.NUMBER_TO,
+  from: process.env.NUMBER_FROM,
   body: "This is the ship that made the Kessel Run in fourteen parsecs?" + Date.now()
 }, function(err, message) {
   if (err) {
